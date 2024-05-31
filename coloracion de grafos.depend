@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1717154162 source:c:\users\usuario\git\test_code_blocks\coloracion de grafos\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1717151144 c:\users\usuario\git\test_code_blocks\coloracion de grafos\resource.h
+
+1717155046 source:c:\users\usuario\git\test_code_blocks\coloracion de grafos\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"resource.h"
+
