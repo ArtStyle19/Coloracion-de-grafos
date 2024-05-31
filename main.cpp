@@ -76,7 +76,6 @@ void WelshPowell() {
         order[i] = i;
     }
 
-    // Sort vertices by descending degree
     for (int i = 0; i < numVertices - 1; i++) {
         for (int j = i + 1; j < numVertices; j++) {
             if (degrees[order[i]] < degrees[order[j]]) {
