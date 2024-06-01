@@ -312,9 +312,9 @@ BOOL CALLBACK DlgMain(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam) {
     switch(uMsg) {
         case WM_INITDIALOG: {
             InitializeGraph();
-            MatulaMarbleIsaacson();
+//            MatulaMarbleIsaacson();
             GreedyColoring();
-            WelshPowell()
+//            WelshPowell();
             char buffer[256];
             for (int i = 0; i < numVertices; i++) {
                 sprintf(buffer, "Vertex %d -> Color %d\n", i, colors[i]);
